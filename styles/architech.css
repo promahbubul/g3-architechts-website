@@ -29,6 +29,7 @@
   border-radius: 8px;
   border: 0px;
   font-size: 1.25rem;
+  cursor: pointer;
 }
 
 /* font-family: 'Work Sans', sans-serif; */
@@ -66,6 +67,7 @@ ul > li {
 .nav_link {
   text-decoration: none;
   color: var(--dark-02);
+  cursor: pointer;
 }
 
 /* ============================== */
@@ -101,4 +103,112 @@ ul > li {
 }
 .banner_bottom img {
   width: 100%;
+}
+
+/* ============================== */
+/*         Responsive Media Query */
+/*                 Mobile Devides */
+/*=============================== */
+
+@media screen and (max-width: 576px) {
+  header {
+    width: 100vw;
+  }
+  .navbar {
+    width: 90%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .header_title {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .navbar ul {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .banner {
+    width: 90%;
+    margin: 3rem auto 0;
+  }
+
+  .banner_top h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+
+  .banner_top p {
+    width: 100%;
+    margin: 0 auto 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .banner_top {
+    margin-bottom: 2rem;
+  }
+
+  .btn-primary {
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 1.2rem;
+  }
+}
+
+/* ============================== */
+/*         Responsive Media Query */
+/*       Teblat or Medium Devides */
+/*=============================== */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    width: 100vw;
+  }
+  nav {
+    flex-direction: column;
+  }
+
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .header_title {
+    font-size: 2.783rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .navbar ul {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .banner {
+    width: 90%;
+    margin: 4rem auto 0;
+  }
+
+  .banner_top h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 3.3rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+  }
+
+  .banner_top p {
+    width: 100%;
+    text-align: center;
+  }
 }
