@@ -22,10 +22,19 @@
   font-family: var(--primaryFont);
 }
 
+.btn-primary {
+  background: var(--orange);
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: 0px;
+  font-size: 1.25rem;
+}
+
 /* font-family: 'Work Sans', sans-serif; */
 
 /* ============================== */
-/*                  Header Section */
+/*                 Navbar Section */
 /*=============================== */
 header {
   padding: 2rem 0;
@@ -33,7 +42,6 @@ header {
 }
 .navbar {
   width: 80%;
-  border: 2px solid;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -58,4 +66,39 @@ ul > li {
 .nav_link {
   text-decoration: none;
   color: var(--dark-02);
+}
+
+/* ============================== */
+/*                 Banner Section */
+/*=============================== */
+.banner {
+  width: 80%;
+  margin: 5rem auto 0;
+}
+
+.banner_top {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.banner_top h1 {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 3.5rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+.banner_top p {
+  width: 85%;
+  margin: 0 auto 2.5rem;
+  color: var(--dark-03);
+}
+.banner_top button {
+}
+
+.banner_bottom {
+  width: 100%;
+}
+.banner_bottom img {
+  width: 100%;
 }
