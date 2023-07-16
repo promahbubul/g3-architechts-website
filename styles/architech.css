@@ -6,11 +6,56 @@
 /*=============================== */
 
 :root {
+  --dark-01: #131313;
+  --dark-02: #424242;
+  --dark-03: #727272;
   --primaryFont: "Work Sans", sans-serif;
+  --bgOrange: rgba(255, 144, 14, 0.1);
+  --orange: #ff900e;
+  --bgSecondary: #fff4e7;
 }
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: var(--primaryFont);
 }
 
 /* font-family: 'Work Sans', sans-serif; */
+
+/* ============================== */
+/*                  Header Section */
+/*=============================== */
+header {
+  padding: 2rem 0;
+  background: var(--bgOrange);
+}
+.navbar {
+  width: 80%;
+  border: 2px solid;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_title {
+  font-size: 2.875rem;
+  width: 50%;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+ul > li {
+  list-style: none;
+  /* color: var(--dark-02); */
+}
+
+.nav_link {
+  text-decoration: none;
+  color: var(--dark-02);
+}
