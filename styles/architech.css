@@ -301,6 +301,14 @@ section.team-container {
 /*                Sponsor Section */
 /* ============================== */
 .footer {
+  width: 80%;
+  margin-top: 130px;
+  padding: 39px;
+  margin: 130px auto 216px;
+  text-align: center;
+  color: var(--dark-02);
+  background: var(--bgOrange);
+  font-size: 1rem;
 }
 
 .footer span {
