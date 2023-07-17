@@ -49,7 +49,7 @@ header {
   align-items: center;
 }
 .header_title {
-  font-size: 2.875rem;
+  font-size: 2rem;
   width: 50%;
 }
 
@@ -84,7 +84,7 @@ ul > li {
   margin-bottom: 2.5rem;
 }
 .banner_top h1 {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   font-size: 3.5rem;
   line-height: 1.4;
@@ -398,11 +398,11 @@ section.team-container {
   .header_title {
     font-size: 2.783rem;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 40px;
   }
 
   .navbar ul {
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
   }
 
