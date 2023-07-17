@@ -222,13 +222,13 @@ section.team-container {
 }
 .ten-years-badge {
   background: var(--orange);
-  width: 250px;
+  width: 200px;
   text-align: center;
   color: #fff;
-  padding: 35px;
+  padding: 30px;
   border-radius: 8px;
   position: absolute;
-  bottom: 123px;
+  bottom: 130px;
   left: 0;
 }
 .ten-years-badge h3 {
@@ -445,6 +445,25 @@ section.team-container {
     margin: auto;
   }
 
+  .feature-right img {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: right;
+    height: 100%;
+  }
+
+  .ten-years-badge {
+    background: var(--orange);
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+  }
+
   .fact-container {
     width: 90%;
     margin-top: 100px;
@@ -519,18 +538,6 @@ section.team-container {
     width: 90%;
     margin: 100px auto 80px;
   }
-}
-
-.ten-years-badge {
-  background: var(--orange);
-  width: 200px;
-  text-align: center;
-  color: #fff;
-  padding: 30px;
-  border-radius: 8px;
-  position: absolute;
-  bottom: 0px;
-  left: 0;
 }
 
 /* ============================== */
@@ -697,6 +704,31 @@ section.team-container {
     border-radius: 8px;
     position: absolute;
     bottom: 0px;
+    left: 0;
+  }
+
+  .feature-right {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .feature-right img {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: right;
+    height: 100%;
+  }
+
+  .ten-years-badge {
+    background: var(--orange);
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -60px;
     left: 0;
   }
 }
