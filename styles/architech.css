@@ -242,9 +242,10 @@ section.team-container {
 }
 
 .fact-bottom {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
   margin-top: 100px;
+  gap: 10px;
 }
 
 .fact-card {
