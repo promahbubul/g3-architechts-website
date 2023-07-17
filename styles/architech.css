@@ -372,6 +372,135 @@ section.team-container {
     border: 0px;
     font-size: 1.2rem;
   }
+
+  section.team-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  main {
+    width: 100%;
+    margin: auto;
+  }
+
+  section.team-container {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+  }
+
+  .team-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .team-content {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .featuer-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .feature-left {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .feature-left-title {
+    font-size: 2.2rem;
+  }
+
+  .feature-left-top p {
+    font-size: 1rem;
+  }
+
+  .feature-right {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .fact-container {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .fact-top {
+    width: 100%;
+  }
+
+  .fact-top h3 {
+    font-size: 2.2rem;
+  }
+
+  .fact-top p {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+
+  .fact-bottom {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }
+
+  .fact-card {
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+    padding: 36px;
+    text-align: center;
+  }
+
+  .sponsor-container {
+    margin-top: 180px;
+    width: 90%;
+    margin: 120px auto 0;
+  }
+
+  .sponsor-top {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .sponsor-top h3 {
+    font-size: 2.3rem;
+    color: var(--dark-01);
+  }
+
+  .sponsor-top p {
+    width: 100%;
+    margin: 24px auto 0;
+    font-size: 1rem;
+    color: var(--dark-03);
+  }
+
+  .sponsor-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .sponsor-bottom img {
+    width: 180px;
+  }
+
+  .footer {
+    width: 90%;
+    margin: 100px auto 80px;
+  }
 }
 
 /* ============================== */
