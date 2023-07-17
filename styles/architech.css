@@ -209,17 +209,34 @@ section.team-container {
 .feature-right {
   width: 50%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
 }
 .feature-right img {
-  width: 100%;
-  /* margin-left: 146px; */
+  width: 85%;
   box-sizing: border-box;
+  justify-content: right;
+  height: 80%;
+}
+.ten-years-badge {
+  background: var(--orange);
+  width: 250px;
+  text-align: center;
+  color: #fff;
+  padding: 35px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 123px;
+  left: 0;
 }
 .ten-years-badge h3 {
+  font-size: 2rem;
 }
 .ten-years-badge p {
+  font-size: 1.2rem;
 }
-
 /* ============================== */
 /*                   Fact Section */
 /* ============================== */
@@ -504,6 +521,18 @@ section.team-container {
   }
 }
 
+.ten-years-badge {
+  background: var(--orange);
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
 /* ============================== */
 /*         Responsive Media Query */
 /*       Teblat or Medium Devides */
@@ -650,5 +679,24 @@ section.team-container {
 
   .sponsor-bottom img {
     width: 180px;
+  }
+
+  .feature-right img {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: right;
+    height: 100%;
+  }
+
+  .ten-years-badge {
+    background: var(--orange);
+    width: 250px;
+    text-align: center;
+    color: #fff;
+    padding: 35px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
   }
 }
